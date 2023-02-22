@@ -1,0 +1,561 @@
+/*
+Template Name: 
+Template URI: 
+Author: ThemeDeveloperNet
+Author URI: https://videohive.net/user/themedevelopernet
+Description: 
+Version: 1.0.0
+Text Domain: 
+*/
+/*
+///// CSS Index \\
+1. Reset CSS Start
+2. General CSS
+3. Home Page CSS
+
+19. Contact Page CSS
+*/
+/* Reset CSS Start */
+
+
+/* Reset CSS Start */
+* {
+    padding: 0;
+    margin: 0;
+    outline: none;
+}
+
+body {
+    font-family: 'proxima_novaregular';
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 28px;
+    overflow-x: hidden;
+}
+
+a,
+span {
+    display: inline-block;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}
+
+a:focus,
+a:hover {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+h1,
+h2 {
+    font-weight: 700;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    padding: 0;
+    margin-bottom: 10px;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+strong{
+    font-family: 'proxima_novabold';
+}
+
+
+/*******************
+***** 1. General CSS
+********************/
+/* default css Start */
+.section-padding {
+    padding: 100px 0;
+}
+
+.section-padding2 {
+    padding: 120px 0;
+}
+
+@media (max-width: 767px) {
+    .section-padding2 {
+        padding: 120px 0 90px;
+    }
+}
+
+/* default css End */
+/* Header-top-area Start */
+
+/* Header-top-area End */
+/* Header-area Start */
+/* Header-menu-area Start */
+.header-area {
+    box-shadow: 0 2px 7px 0 rgba(0, 0, 0, 0.07);
+    overflow: visible;
+    position: relative;
+    z-index: 99;
+}
+
+@media (max-width: 767px) {
+    .header-area {
+        position: absolute;
+        top: 262px;
+        width: 100%;
+        z-index: 9;
+    }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .header-area {
+        top: 208px;
+    }
+}
+
+.main-menu {
+    display: block;
+    margin-bottom: 30px;
+}
+
+.main-menu li {
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+}
+
+.main-menu li a {
+    font-size: 16px;
+    line-height: 34px;
+    color: #E21A23;
+    margin-right: 20px;
+    transition: .3s;
+    font-family: 'proxima_novabold';
+}
+.main-menu li i {
+    font-size: 16px;
+    margin-right: 10px;
+}
+.main-menu li a:hover {
+    color: #000;
+}
+
+/* Header-search-area End */
+
+
+/* Header-button style End */
+/* Header-area End */
+/* Hero-area Start */
+.hero-area {
+    overflow: visible;
+    position: relative;
+    z-index: 1;
+    background: url(images/hero-bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    padding-top: 60px;
+    height: 780px;
+}
+
+.logo {
+    margin-bottom: 55px;
+}
+
+.hero-shape-img {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 38%;
+    height: 800px;
+}
+
+.hero-shape-img img {
+    /* height: 830px; */
+    float: right;
+}
+
+.hero-content h1 {
+    font-size: 60px;
+    line-height: 72px;
+    font-weight: 400;
+    font-family: 'proxima_novabold';
+}
+
+.hero-content p {
+    font-size: 24px;
+    line-height: 34px;
+    font-weight: 400;
+    color: #000;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+.hero-counter-area {
+    padding-bottom: 70px;
+    padding-top: 30px;
+}
+
+.counter-single-content h5 {
+    font-size: 60px;
+    line-height: 72px;
+    font-family: 'proxima_novabold';
+}
+
+.counter-single-content p {
+    font-size: 24px;
+    line-height: 34px;
+    font-weight: 400;
+    color: #000;
+}
+.pr-0 {
+    padding-right: 0;
+}
+.counter-single-content-right {
+    padding-left: 60px;
+}
+
+
+/* About area start */
+.about-area {
+    padding: 80px 0;
+    background: #06235B;
+    color: #fff;
+    
+}
+
+.about-content h4 {
+    font-size: 27px;
+    color: #fff;
+    margin-bottom: 55px;
+    font-family: 'proxima_novabold';
+}
+
+.about-content.about-left {
+    padding-right: 80px;
+}
+
+.about-content.about-right {
+    padding-left: 16px;
+}
+
+.about-content p {
+    font-size: 21px;
+    line-height: 34px;
+    color: #fff;
+}
+
+/* about-area End */
+/* video-area Start */
+.video-area {
+    padding-top: 95px;
+}
+
+.video-content {
+    margin-bottom: 95px;
+}
+
+
+/* video-area End */
+
+/* content-area Start */
+
+.section-title {
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 40px;
+}
+
+.section-title h2 {
+    color: #000;
+    font-family: 'proxima_novalight_italic';
+}
+.section-title.section-title-bold h2 {
+    font-family: 'proxima_novabold';
+    font-style: normal;
+}
+
+
+.content-title {
+    font-size: 27px;
+    line-height: 34px;
+    color: #000;
+    font-family: 'proxima_novabold';
+}
+
+.content-description p {
+    font-size: 24px;
+    line-height: 38px;
+    margin-bottom: 45px;
+    font-family: 'proxima_novaregular';
+}
+
+.content-list {
+    padding-left: 35px;
+}
+
+.content-single-list h4 {
+    font-size: 24px;
+    line-height: 38px;
+    margin-bottom: 0;
+    font-family: 'proxima_novabold';
+}
+
+.chart {
+    padding: 30px 0;
+}
+
+.chart svg {
+    width: 100%;
+}
+
+/* content-area End */
+
+
+/* content-area stard */
+
+.single-case-study {
+    padding: 65px 30px 30px;
+    border: 2px solid #ededed;
+}
+
+.card-img {
+    margin-bottom: 40px;
+}
+.card-text p {
+    font-size: 21px;
+    line-height: 33px;
+}
+
+.case-study-tags ul li {
+    display: inline-block;
+    background: #FFE7E7;
+    margin-right: 20px;
+    margin-top: 15px;
+}
+
+.case-study-tags ul {list-style: none;text-decoration: none;}
+
+.case-study-tags ul li a {
+    text-decoration: none;
+    color: #000;
+    font-size: 18px;
+    line-height: 33px;
+    padding: 5px 15px;
+}
+
+.case-study-tags {
+    margin-bottom: 45px;
+    margin-top: 10px;
+}
+
+.case-study-btn .read-more-btn {
+    font-size: 18px;
+    width: 200px;
+    height: 56px;
+    line-height: 56px;
+    color: #fff;
+    background: #E21A23;
+    text-align: center;
+    text-decoration: none;
+}
+
+.case-study-slider .owl-dots {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.case-study-slider .owl-dot {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    border: 1px solid #E21A23;
+    margin: 0 5px;
+    background: #E21A23;
+    border-radius: 50%;
+}
+
+section.case-study-area {
+    padding-top: 50px;
+}
+
+/* content-area End */
+
+/* Contact area start */
+
+.contact-area {
+    padding: 200px 0;
+    background: url(images/contact-bg.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+}
+.section-title.contact-area-section-title {
+    text-align: left;
+}
+
+.section-title.contact-area-section-title {
+    text-align: left;
+}
+
+label {
+    color: #fff;
+    font-size: 24px;
+    margin-bottom: 7px;
+    position: relative;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+
+.contact-form input {
+    width: 100%;
+    height: 60px;
+    border: 1px solid #ffffff;
+}
+
+.mktoAsterix {
+    position: absolute;
+    right: -10px;
+    top: 0;
+}
+.section-title.section-title-bold.contact-area-section-title h2 {
+    font-size: 80px;
+    line-height: 83px;
+    color: #fff;
+}
+
+.section-title.section-title-bold.contact-area-section-title h2 span {
+    color: #dbbbf7;
+}
+
+.section-title.section-title-bold.contact-area-section-title p {
+    color: #fff;
+    font-size: 34px;
+    line-height: 1;
+}
+
+span.mktoButtonWrap.mktoSimple {
+    width: 100%;
+}
+
+button.mktoButton {
+    display: inline-block;
+    width: 100%;
+    height: 75px;
+    font-size: 24px;
+    border: 1px solid #06235B;
+    background: #06235B;
+    color: #fff;
+    padding: 0;
+    border-radius: 30px;
+    margin-top: 0px;
+    font-family: 'proxima_novabold';
+}
+.contact-form input {
+    padding: 0px 20px;
+    color: #878787;
+    font-size: 24px;
+    font-style: italic;
+}
+.contact-form input::placeholder{
+    color: #878787;
+}
+.contact-form label {
+    display: none;
+}
+
+.mktoFormRow {
+    margin: 15px 0px;
+}
+/* Contact area End */
+
+/* footer-area Start */
+.footer-text a{
+    color:#E21A23;
+}
+.footer-text p {
+    margin-bottom: 0;
+    opacity: 0.8;
+}
+footer.site-footer {
+    padding: 100px 0;
+    text-align: center;
+}
+.back-to-top-btn {
+    margin-bottom: 80px;
+}
+
+.btn-area {
+    text-align: center;
+    margin-top: 100px;
+}
+a.section-btn {
+    display: inline-block;
+    width: 280px;
+    height: 70px;
+    border: 3px solid #E21A23;
+    line-height: 63px;
+    border-radius: 50px;
+    font-size: 25px;
+    text-decoration: none;
+    color: #000;
+    font-family: 'proxima_novabold';
+    text-align: center;
+}
+
+.back-to-top-btn {
+    margin-bottom: 80px;
+}
+.footer-text h4 {
+    font-family: 'proxima_novabold';
+    font-size: 28px;
+}
+
+.footer-text p {
+    font-size: 20px;
+}
+
+.contactImg {
+    position: absolute;
+    width: 28%;
+    bottom: 0;
+    right: 4%;
+}
+
+a.section-btn:hover {
+    background: #E21A23;
+    color: #fff;
+}
+.case-study-btn .read-more-btn:hover {
+    background: #f96464; 
+}
+button.mktoButton:hover {
+    background: #000;
+}
+
+/* footer-area End */
+
+
+
+/* =================================================
+                -page Style End
+==================================================== */
+
+/*# sourceMappingURL=style.css.map */
