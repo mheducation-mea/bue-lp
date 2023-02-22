@@ -1,0 +1,186 @@
+/* Medium Layout: 1280px. */
+
+@media only screen and (min-width: 1201px) {
+
+    section.case-study-area {
+        padding-bottom: 100px;
+    }
+
+}
+
+/* Medium Layout: 1280px. */
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+
+
+
+}
+
+
+/* Tablet Layout: 768px. */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+    .hero-shape-img {
+        display: none;
+    }
+
+    .about-content.about-right {
+        margin-top: 60px;
+    }
+    .video-content {
+        margin-bottom: 50px;
+    }
+    section.case-study-area {
+        padding-bottom: 80px;
+    }
+
+    .section-title.contact-area-section-title {
+        text-align: center;
+    }
+    .contact-area {
+        padding: 60px 0 80px;
+        background: url(images/contact-bg.png);
+        background-repeat: no-repeat;
+        background-position: left center;
+        background-size: cover;
+        background-color: #E21A23;
+        background-image: none;
+    }
+    .contactImg{
+        display: none;
+    }
+}
+
+
+/* Mobile Layout: 320px. */
+
+@media only screen and (max-width: 767px) {
+    .hero-shape-img {
+        display: none;
+    }
+    .contactImg{
+        display: none;
+    }
+    .logo img {
+        width: 100px;
+    }
+    .main-menu li a {
+        font-size: 16px;
+        line-height: 30px;
+        color: #E21A23;
+        margin-right: 10px;
+    }
+    .hero-content h1 {
+        font-size: 36px;
+        line-height: 40px;
+    }
+    
+    .hero-content p {
+        font-size: 20px;
+    }
+    
+    .hero-area {
+        height: auto;
+        background: none;
+    }
+    section.case-study-area .btn-area {
+        margin-top: 50px;
+    }
+    .hero-counter-area {
+        padding-top: 60px;
+    }
+    
+    .counter-single-content h5 {
+        font-size: 48px;
+        line-height: 50px;
+    }
+    
+    .counter-single-content {
+        padding-right: 60px;
+    }
+    
+    .counter-single-content.counter-single-content-right {
+        padding: 40px 60px 0 0;
+    }
+    
+
+    .about-area {
+        padding: 30px 0 60px;
+        background: #06235B;
+        color: #fff;
+    }
+    .about-content.about-left {
+        padding-right: 0;
+    }
+    
+    .about-content h4 {
+        margin-top: 13px;
+        margin-bottom: 13px;
+    }
+    
+    .video-area {
+        padding-top: 65px;
+    }
+
+    .video-content {
+        margin-bottom: 50px;
+    }
+    
+    .content-description p {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    
+    .content-list {
+        padding-left: 15px;
+    }
+    
+    .section-title.section-title-bold.contact-area-section-title h2 {
+        font-size: 36px;
+        line-height: 1;
+        text-align: center;
+    }
+    
+    .section-title.section-title-bold.contact-area-section-title p {
+        text-align: center;
+        font-size: 20px;
+        line-height: 1.2;
+    }
+
+    .chart svg {
+        width: 100%;
+        height: 300px;
+    }
+
+    .case-study-area {
+        padding-bottom: 60px;
+    }
+    section.contact-area {
+        background: #e01f24;
+        padding: 50px 0px;
+    }
+    .container {
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    
+    section.hero-area {
+        padding-top: 25px;
+    }
+    .about-content.about-right {
+        padding-left: 0;
+    }
+    .main-menu {
+        margin-bottom: 25px;
+    }
+    
+    .logo {
+        margin-bottom: 25px;
+    }
+}
+
+
+/* Wide Mobile Layout: 480px. */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {}
