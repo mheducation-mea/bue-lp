@@ -1,0 +1,16 @@
+<svg 
+ xmlns="http://www.w3.org/2000/svg"
+ xmlns:xlink="http://www.w3.org/1999/xlink"
+ width="948px" height="924px">
+<defs>
+<linearGradient id="PSgrad_0" x1="0%" x2="70.711%" y1="70.711%" y2="0%">
+  <stop offset="0%" stop-color="rgb(255,255,255)" stop-opacity="0" />
+  <stop offset="100%" stop-color="rgb(237,244,250)" stop-opacity="1" />
+</linearGradient>
+
+</defs>
+<path fill-rule="evenodd"  fill-opacity="0" fill="rgb(237, 244, 250)"
+ d="M847.106,524.370 L399.671,923.760 L0.250,476.352 L447.685,76.961 C571.241,-33.328 760.816,-22.578 871.113,100.970 C981.410,224.518 970.662,414.081 847.106,524.370 Z"/>
+<path fill="url(#PSgrad_0)"
+ d="M847.106,524.370 L399.671,923.760 L0.250,476.352 L447.685,76.961 C571.241,-33.328 760.816,-22.578 871.113,100.970 C981.410,224.518 970.662,414.081 847.106,524.370 Z"/>
+</svg>
