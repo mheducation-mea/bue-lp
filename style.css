@@ -610,12 +610,13 @@ span.mktoButtonWrap button{
     color:white !important;
     background-color:#06235B !important;
     border:0 !important;
+    box-shadow:none !important;
 }
 button.mktoButton:hover {
     background: white !important;
     color:black !important;
 }
-.mktoShadow{
+span.mktoShadow{
     display:none !important;
 }
 /* Contact area End */
