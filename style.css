@@ -413,7 +413,7 @@ section.case-study-area {
 .section-title.contact-area-section-title {
     text-align: left;
 }
-
+/*
 label {
     color: #fff;
     font-size: 24px;
@@ -430,7 +430,7 @@ label {
     width: 250px !important;
     float:left;
 }
-
+*/
 .mktoAsterix {
     position: absolute;
     right: -10px;
@@ -452,6 +452,7 @@ label {
     line-height: 1;
 }
 
+/*
 .mktoFieldWrap{
             width:100% !important;
         }
@@ -533,6 +534,73 @@ button{
 }
 .mktoFormRow {
     margin: 15px 0px;
+}
+*/
+.mktoForm{
+    /*Background:green !important;*/
+    padding:0 !important;
+    margin:0 !important;
+    display:flex !important;
+    flex-direction: column !important;
+}
+.mktoLabel{
+    /*background:blue !important;*/
+}
+input{
+    background-image:none !important;
+    /*background: yellow !important;*/
+}
+.mktoOffset{
+    display:none !important;
+}
+.mktoGutter{
+    display:none !important;
+}
+.mktoFieldDescriptor .mktoFormCol{
+}
+.mktoFormRow{
+    flex:1 !important;
+    width:100% !important;
+    /*background:red !important;*/
+}
+.mktoFieldWrap{
+    display:flex !important;
+    /*background: teal !important;*/
+    width:100% !important;
+}
+.mktoFieldWrap input{
+    flex:4 !important;
+    border:0 !important;
+    box-shadow: none !important;
+    height:60px !important;
+}
+.mktoFieldWrap label{
+    flex:1 !important;
+}
+.mktoFormCol{
+    width:100% !important;
+}
+form#mktoForm_15663{
+    width:100% !important;
+}
+div.mktoButtonRow{
+    width:100% !important;
+    /*background:black !important; */  
+}
+span.mktoButtonWrap{
+    margin:0 !important;
+    display:flex !important;
+    justify-content: center !important;
+}
+span.mktoButtonWrap button{
+    display: inline-block !important;
+    padding:15px !important;
+    font-family: proxima nova !important;
+    font-size: 18px !important;
+    font-weight:bold !important;
+    color:white !important;
+    background-color:#06235B !important;
+    border:0 !important;
 }
 /* Contact area End */
 
