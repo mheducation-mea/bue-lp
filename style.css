@@ -575,13 +575,14 @@ input{
     height:60px !important;
 }
 .mktoFieldWrap label{
-    flex:1 !important;
+    flex:1.3 !important;
     color:white !important;
     font-weight:100 !important;
     background:blue !important;
     display: flex !important;
     align-items: center !important;
     padding:0 !important;
+    font-weight: bold !important;
 }
 .mktoFormCol{
     width:100% !important;
@@ -601,13 +602,21 @@ span.mktoButtonWrap{
 span.mktoButtonWrap button{
     background-image:none !important;
     display: inline-block !important;
-    padding:15px !important;
+    padding:15px 30px 15px 30px !important;
     font-family: proxima nova !important;
     font-size: 18px !important;
     font-weight:bold !important;
+    border-radius: 30px !important;
     color:white !important;
     background-color:#06235B !important;
     border:0 !important;
+}
+button.mktoButton:hover {
+    background: white !important;
+    color:black !important;
+}
+.mktoShadow{
+    display:none !important;
 }
 /* Contact area End */
 
