@@ -451,39 +451,40 @@ label {
     font-size: 34px;
     line-height: 1;
 }
-    .mktoFieldWrap{
-        width:100% !important;
-    }
-    .mktoFieldWrap label{
-        font-family:proxima nova !important;
-        font-weight:1 !important;
-        font-size:16px !important;
-        width:150px !important;
-        float:left !important;
-    }
-    .mktoFieldWrap input{
-        width:100% !important;
-    }
-    .mktoFormCol{
-        width:100% !important;
-    }
-    button.mktobutton{
-        background-image:none !important;
-        display: inline-block;
-        width: 100% !important;
-        height: 75px !important;
-        font-size: 24px !important;
-        border: 1px solid #06235B !important;
-        background: #06235B !important;
-        color: #fff !important;
-        padding: 0 !important;
-        border-radius: 30px !important;
-        margin-top: 0px !important;
-        font-family: 'proxima_novabold' !important;
-    }
-    form#mktoForm_15663{
-        width:100% !important;
-    }
+
+.mktoFieldWrap{
+            width:100% !important;
+        }
+        .mktoFieldWrap label{
+            font-family:proxima nova !important;
+            font-weight:1 !important;
+            font-size:16px !important;
+            width:150px !important;
+            float:left !important;
+        }
+        .mktoFieldWrap input{
+            width:100% !important;
+        }
+        .mktoFormCol{
+            width:100% !important;
+        }
+        button.mktobutton{
+            background-image:none !important;
+            display: inline-block;
+            width: 100% !important;
+            height: 75px !important;
+            font-size: 24px !important;
+            border: 1px solid #06235B !important;
+            background: #06235B !important;
+            color: #fff !important;
+            padding: 0 !important;
+            border-radius: 30px !important;
+            margin-top: 0px !important;
+            font-family: 'proxima_novabold' !important;
+        }
+        form#mktoForm_15663{
+            width:100% !important;
+        }
 span.mktoButtonWrap.mktoSimple {
     width: 100%;
 }
