@@ -576,6 +576,12 @@ input{
 }
 .mktoFieldWrap label{
     flex:1 !important;
+    color:white !important;
+    font-weight:100 !important;
+    background:blue !important;
+    display: flex !important;
+    align-items: center !important;
+    padding:0 !important;
 }
 .mktoFormCol{
     width:100% !important;
@@ -593,6 +599,7 @@ span.mktoButtonWrap{
     justify-content: center !important;
 }
 span.mktoButtonWrap button{
+    background-image:none !important;
     display: inline-block !important;
     padding:15px !important;
     font-family: proxima nova !important;
