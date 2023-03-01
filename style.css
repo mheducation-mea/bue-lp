@@ -456,7 +456,7 @@ span.mktoButtonWrap.mktoSimple {
     width: 100%;
 }
 
-button{
+.mktoButton{
     display: inline-block;
     width: 100%;
     height: 75px;
@@ -482,6 +482,7 @@ button{
     width:120px !important;
     /*background:cyan;*/
     font-size:16px !important;
+    font-weight:100;
 }
 .mktoFormCol{
     flex:1;
