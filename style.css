@@ -477,10 +477,10 @@ button.mktoButton {
 .contact-form input::placeholder{
     color: #878787;
 }
-.contact-form label {
+/*.contact-form label {
     display: none;
 }
-
+*/
 .mktoFormRow {
     margin: 15px 0px;
 }
