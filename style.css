@@ -425,10 +425,10 @@ label {
 
 
 .contact-form input {
-    width: 100%;
-    height: 60px;
-    border: 1px solid #ffffff;
-    background-color:yellow;
+    border:0;
+    height:50px;
+    width: 250px !important;
+    float:left;
 }
 
 .mktoAsterix {
@@ -456,7 +456,7 @@ span.mktoButtonWrap.mktoSimple {
     width: 100%;
 }
 
-button.mktoButton {
+button{
     display: inline-block;
     width: 100%;
     height: 75px;
@@ -479,11 +479,23 @@ button.mktoButton {
     color: #878787;
 }
 .contact-form label {
-    //display: none;
-    font-size:14px;
-    font-weight:100;
-    display:block;
-    width:150px;
+    width:120px !important;
+    /*background:cyan;*/
+    font-size:16px !important;
+}
+.mktoFormCol{
+    flex:1;
+    float:left;
+    flex-direction: column;
+}
+.mktoOffset{
+    margin:0;
+    padding:0;
+    width:0 !important;
+}
+.mktoGutter{
+    margin:0;
+    padding:0;
 }
 .mktoFormRow {
     margin: 15px 0px;
